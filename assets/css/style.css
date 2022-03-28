@@ -4,20 +4,20 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(41, 111, 223) !important;
+}
+
 .number {
     width: 50px;
-    height: 50px;
-    background-color: rgb(21, 62, 139);
-    border: 1px solid yellowgreen;
-    color: white;
+    height: 50px !important;
+    background-color: cornflowerblue;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 12px;
 }
 
-.numbers {
-    width: 500px;
-    display: flex;
-    flex-wrap: wrap;
+.container {
+    width: 500px !important;
 }
