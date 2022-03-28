@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: rgb(41, 111, 223) !important;
+    background-color: rgb(14 66 151) !important;
 }
 
 .number {
-    width: 50px;
-    height: 50px !important;
+    width: 60px !important;
+    height: 60px !important;
     background-color: cornflowerblue;
     display: flex;
     justify-content: center;
@@ -19,5 +19,9 @@ body {
 }
 
 .container {
-    width: 500px !important;
+    width: 550px !important;
+}
+
+.bg_green {
+    background-color: #20ab20;
 }

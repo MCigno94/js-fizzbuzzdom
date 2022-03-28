@@ -1,14 +1,13 @@
 const elementContainer = document.querySelector('.container');
 const elementRow = document.createElement('div');
-elementRow.classList.add('row', 'gap-3')
+elementRow.classList.add('row', 'gap-3', 'justify-content-center')
 elementContainer.appendChild(elementRow);
 
 for (let i = 1; i <= 100; i++) {
+    //console.log(i); 
     const markUp = document.createElement('div');
-    console.log(i);
-
     markUp.innerHTML += i;
-    markUp.classList.add('number', 'col-1');
+    markUp.classList.add('number', 'col-1', 'rounded-2');
 
     elementRow.insertAdjacentElement('beforeend', markUp);
 
@@ -20,7 +19,7 @@ for (let i = 1; i <= 100; i++) {
         markUp.classList.add('bg-warning')
     } else if (i % 3 == 0) {
         markUp.innerHTML = 'fizz'
-        markUp.classList.add('bg-secondary')
+        markUp.classList.add('bg_green')
     } else {
         markUp.innerHTML = i
     }
